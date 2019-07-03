@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MyFirstActivity">
 
     <!--TextView
         android:layout_width="wrap_content"
@@ -19,19 +19,19 @@
 
     <TextView
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:text="@string/hello"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:text="This is my first Android Application!"
         tools:ignore="MissingConstraints" />
 
-    <!--Button
+    <Button
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="And this is a clickable button!"
-        tools:ignore="MissingConstraints" /-->
+        android:layout_width="fill_parent"
+        android:text="@string/hello"
+        tools:ignore="MissingConstraints" /> <!--@strings引用了res/value/strings 里面的内容：hello，这种方式有利于国际化-->
 </android.support.constraint.ConstraintLayout>

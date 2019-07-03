@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.helloworld"
-    android:versionCode="1"
-    android:versionName="0.0.1">
+    android:versionCode="2"
+    android:versionName="1.2">
+    <!--package指定了项目包名-->
+    <!--android:versionCode指定了版本号，用来判断是否需要升级-->
+    <!--android:versionName是用来显示给用户的版本名称-->
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:supportsRtl="true">
+        <activity
+            android:label="Mayuyu"
+            android:name=".MyFirstActivity"
+            android:theme="@android:style/Theme.Dialog">
 
-                <category android:name="android.intent.category.LAUNCHER" />
+            <!--意图筛选器-->
+            <intent-filter>
+                <!--意图筛选器的动作-->
+                <action android:name="android.intent.action.MAIN"/> <!--MAIN表示这个Activity是App的入口点-->
+                <!--意图筛选器的类别-->
+                <category android:name="android.intent.category.LAUNCHER" /> <!--LAUNCHER表示该App可以从设备的启动器启动-->
             </intent-filter>
         </activity>
     </application>
