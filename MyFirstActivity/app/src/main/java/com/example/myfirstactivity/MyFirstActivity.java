@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.myfirstactivity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ public class MyFirstActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_my_first);
         Log.d(tag, "onCreate()");
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
     }
 
     public void onStart(){

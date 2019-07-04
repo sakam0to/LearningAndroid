@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.helloworld"
-    android:versionCode="2"
-    android:versionName="1.2">
-    <!--package指定了项目包名-->
-    <!--android:versionCode指定了版本号，用来判断是否需要升级-->
-    <!--android:versionName是用来显示给用户的版本名称-->
+    package="com.example.myfirstactivity">
+
 
     <application
         android:allowBackup="true"
@@ -14,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:label="Mayuyu"
-            android:name="com.example.helloworld.MainActivity">
+            android:label="Sayuri"
+            android:name="com.example.myfirstactivity.MyFirstActivity">
 
             <!--意图筛选器-->
             <intent-filter>
@@ -26,5 +21,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
