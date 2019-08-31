@@ -19,7 +19,7 @@
 
             <!--意图筛选器-->
             <intent-filter>
-                <!--意图筛选器的动作-->
+                <!--意图筛选器的名称-->
                 <action android:name="android.intent.action.MAIN"/> <!--MAIN表示这个Activity是App的入口点-->
                 <!--意图筛选器的类别-->
                 <category android:name="android.intent.category.LAUNCHER" /> <!--LAUNCHER表示该App可以从设备的启动器启动-->
