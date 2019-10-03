@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             Fragment2 fragment2 = new Fragment2();
             fragmentTransaction.replace(android.R.id.content, fragment2);
         }
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }
