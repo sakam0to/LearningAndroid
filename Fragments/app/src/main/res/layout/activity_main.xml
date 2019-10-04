@@ -8,7 +8,7 @@
     android:orientation="horizontal">
 
 
-    <!--Manually add fragments
+    <!--Manually add fragments-->
     <fragment
         android:name="com.zhujingjie.fragments.Fragment1"
         android:id="@+id/fragment1"
@@ -22,5 +22,5 @@
         android:layout_weight="1"
         android:layout_width="0px"
         android:layout_height="match_parent" />
-        -->
+    <!---->
 </LinearLayout>

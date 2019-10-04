@@ -5,6 +5,7 @@
     android:background="#FFFE00">
 
     <TextView
+        android:id="@+id/lblFragment1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:text="this is fragment #1"
