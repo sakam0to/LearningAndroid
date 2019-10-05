@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClickLaunchMyBrowser(View view){
         Intent i = new Intent("My Browser");
         i.setData(Uri.parse("http://www.amazon.com"));
+        i.addCategory("Category 1");
+        //i.addCategory("Category 4");  //Unmatched category
         startActivity(i);
     }
 }

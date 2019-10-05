@@ -28,6 +28,9 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <action android:name="My Browser"/>
                 <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="Category 1"/>
+                <category android:name="Category 2"/>
+                <category android:name="Category 3"/>
                 <data android:scheme="http"/>
             </intent-filter>
         </activity>
