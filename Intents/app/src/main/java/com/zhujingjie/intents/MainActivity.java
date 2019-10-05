@@ -30,4 +30,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.827500, -122.481670"));
         startActivity(i);
     }
+
+    public void onClickLaunchMyBrowser(View view){
+        Intent i = new Intent("My Browser");
+        i.setData(Uri.parse("http://www.amazon.com"));
+        startActivity(i);
+    }
 }
